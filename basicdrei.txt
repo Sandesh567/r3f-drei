@@ -1,0 +1,11 @@
+//*   Installing drei   *//
+npm install @react-three/drei@9.32
+
+//Import orbitControls from @react-three/drei
+
+<OrbitControls/>
+1. enableDamping
+
+
+parameters in the orbit controls enableDamping is true by default
+enableDamping means smooth animation .
