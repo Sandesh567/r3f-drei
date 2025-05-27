@@ -5,7 +5,21 @@ npm install @react-three/drei@9.32
 
 <OrbitControls/>
 1. enableDamping
+2. makeDefault
 
+avoiding camera from moving while transform controls
 
 parameters in the orbit controls enableDamping is true by default
 enableDamping means smooth animation .
+
+//Allows user to drag and drop. gizmo effect
+<TransformControls>
+<mesh and geometry/>
+<TransformControls/>
+
+solution for sticking with the cube is 
+using ref and providing ref to the mesh and inside transform control use object to 
+provide the cube.
+
+We can provide modes for the controls like rotate and scale 
+<TransformControls mode ="rotate/scale"/>
