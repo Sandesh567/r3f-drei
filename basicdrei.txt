@@ -38,3 +38,7 @@ lineWidth ={4} //for width of  the line
 axisColors={["color",'color' ,'color']} //color of the lines
 scale={2} //increasing size of the lines
 fixed={true} //makes the size same even from the distant perspective
+
+//Adding text using Html 
+import html from drei
+<Html>Text </Html>

@@ -2,6 +2,7 @@ import {
   PivotControls,
   OrbitControls,
   TransformControls,
+  Html,
 } from "@react-three/drei";
 import { useRef } from "react";
 
@@ -18,12 +19,13 @@ export default function Experience() {
         depthTest={false}
         lineWidth={3}
         axisColors={["#9381ff", "#ff4d6d", "#7ae582"]}
-        scale={2}
+        scale={100}
         fixed={true}
       >
         <mesh position-x={-2}>
           <sphereGeometry />
           <meshStandardMaterial color="orange" />
+          <Html position={[1, 1, 0]}>Text</Html>
         </mesh>
       </PivotControls>
 
