@@ -42,3 +42,16 @@ fixed={true} //makes the size same even from the distant perspective
 //Adding text using Html 
 import html from drei
 <Html>Text </Html>
+
+There is no camera on the text so add distance factor ie; 
+distanceFactor={4}
+
+using occlude
+//occlude means hiding the text when some shape comes infront of the text
+to use this first useref and provide ref to the mesh and inside html
+occlude={[sphere, cube]}
+
+//styling by html class definition 
+wrapperClass ="label"
+
+then target in CSS
