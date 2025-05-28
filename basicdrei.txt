@@ -75,3 +75,6 @@ you can change the speed by using
 speed={5} 
 and 
 floatIntensity={2}
+
+//MeshReflectorMaterial 
+only works on plane geometrya and property are on the component
