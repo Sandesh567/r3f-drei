@@ -1,4 +1,5 @@
 import {
+  Text,
   PivotControls,
   OrbitControls,
   TransformControls,
@@ -47,6 +48,16 @@ export default function Experience() {
         <planeGeometry />
         <meshStandardMaterial color="greenyellow" />
       </mesh>
+      <Text
+        font="./bangers-v20-latin-regular.woff"
+        fontSize={2}
+        color="salmon"
+        position-y={3}
+        maxWidth={6}
+        textAlign="center"
+      >
+        I love coffee
+      </Text>
     </>
   );
 }

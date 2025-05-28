@@ -55,3 +55,11 @@ occlude={[sphere, cube]}
 wrapperClass ="label"
 
 then target in CSS
+
+//Text
+Import the Text
+<Text >your text</Text>
+We can use our own fonts, the default font is roboto
+we can use the property font="path of font"
+Always use the woff format and for it you can use google-webfonts-helper
+fontSize , color, meshNormalMaterial, position we can use these property
