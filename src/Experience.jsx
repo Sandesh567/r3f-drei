@@ -1,4 +1,5 @@
 import {
+  Float,
   Text,
   PivotControls,
   OrbitControls,
@@ -44,20 +45,24 @@ export default function Experience() {
         <meshStandardMaterial color="mediumpurple" />
       </mesh>
       <TransformControls object={cube} mode="translate" />
+
       <mesh position-y={-1} rotation-x={-Math.PI * 0.5} scale={10}>
         <planeGeometry />
         <meshStandardMaterial color="greenyellow" />
       </mesh>
-      <Text
-        font="./bangers-v20-latin-regular.woff"
-        fontSize={2}
-        color="salmon"
-        position-y={3}
-        maxWidth={6}
-        textAlign="center"
-      >
-        I love coffee
-      </Text>
+
+      <Float speed={5} floatIntensity={2}>
+        <Text
+          font="./bangers-v20-latin-regular.woff"
+          fontSize={2}
+          color="salmon"
+          position-y={3}
+          maxWidth={6}
+          textAlign="center"
+        >
+          I love coffee
+        </Text>
+      </Float>
     </>
   );
 }

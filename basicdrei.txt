@@ -63,3 +63,15 @@ We can use our own fonts, the default font is roboto
 we can use the property font="path of font"
 Always use the woff format and for it you can use google-webfonts-helper
 fontSize , color, meshNormalMaterial, position we can use these property
+
+//float helps to object move and float like balloon in the air
+
+<Float>
+Wrap inside any component such as text or geometry
+</Float>
+
+You can use two float in text and in mesh at the same time
+you can change the speed by using 
+speed={5} 
+and 
+floatIntensity={2}
